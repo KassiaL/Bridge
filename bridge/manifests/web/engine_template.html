@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script src="./instant-games-bridge.js"></script>
+        <script type="text/javascript">
+            let gd_id = "{{bridge.game_distribution}}";
+            bridge.initialize({ platforms: { 'game_distribution': { gameId: gd_id } } }).then(() => {
+                
+            })
+            .catch(error => {
+                
+            });
+        </script>
+    </head>
+</html>
