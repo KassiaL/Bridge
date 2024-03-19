@@ -14,5 +14,8 @@ input_method = HiddenInputField
 [project]
 title = Bridge
 
+[library]
+include_dirs = bridge
+
 [bridge]
 game_distribution = 60911954f4a84a9cba3985e92d209b87
